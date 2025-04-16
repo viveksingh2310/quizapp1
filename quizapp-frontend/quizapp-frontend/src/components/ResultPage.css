@@ -1,0 +1,55 @@
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    padding: 2rem;
+    background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .result-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #2d3436;
+    margin-bottom: 1.5rem;
+  }
+  
+  .result-score {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #27ae60;
+    margin-bottom: 2rem;
+  }
+  
+  .result-button {
+    background-color: #00b894;
+    color: white;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .result-button:hover {
+    background-color: #55efc4;
+  }
+  
+  @media (max-width: 600px) {
+    .result-title {
+      font-size: 2rem;
+    }
+  
+    .result-score {
+      font-size: 1.5rem;
+    }
+  
+    .result-button {
+      font-size: 1rem;
+    }
+  }
+  
